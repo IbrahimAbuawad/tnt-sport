@@ -1,0 +1,26 @@
+#hello {
+margin-bottom: 0px;
+color:#9E9E9E;
+font-size:17px;
+}
+#mainh1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: 14px;
+}
+#mainexplore {
+    background-color: #FF9700;
+    border: none;
+    padding:22px 41px;
+    padding-right: 60px;
+    font-size: 20px;
+    color: white;
+position: relative;
+margin-top: 60px;
+}
+
+#arrowicon{
+    position: absolute;
+    right: 20px;
+    top: 27px;
+}
