@@ -1,2 +1,2 @@
 # TNT Sport
-[Deploy Link](ibrahim-tnt-sport.netlify.app)
+[Deploy Link](https://ibrahim-tnt-sport.netlify.app)
