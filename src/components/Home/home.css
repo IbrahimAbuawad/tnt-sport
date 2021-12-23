@@ -1,20 +1,53 @@
 #container {
   display: flex;
 }
-#leftside {
+#container2 {
+  display: none;
+}
+.leftside {
   width: 50%;
 
 }
-#rightside {
+
+.rightside {
   width: 50%;
   background-color:black ;
+ 
 }
 
-#main{
+.main{
     padding-top: 110px;
-    margin-top:35px;
-    margin-left: 29px;
+    margin-top:20px;
+    margin-left: 20px;
     border-left: 2px solid #CDCDCD;
     padding-left: 65px;
     padding-right: 50px;
+}
+
+@media only screen and (max-width: 750px) {
+  #container {
+display: none;  }
+  .leftside {
+    width: 100%;
+  
+  }
+  .rightside {
+    display: block;
+    width: 100%;
+    height: 100vh;
+  }
+  #container2{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 480px){
+  .main{
+    padding-top: 50px;
+    margin-top:20px;
+    margin-left: 20px;
+    border-left: none;
+    padding-left: 10px;
+    padding-right: 50px;
+}
 }
