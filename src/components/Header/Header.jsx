@@ -12,10 +12,10 @@ function Header() {
         </div>
         <Navbar id='nav'  collapseOnSelect expand="lg" id='nav' >
         <Navbar.Toggle id='toggle' aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="collapes">
+        <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link id='navlink1' >About</Nav.Link>
-            <Nav.Link id='navlink2'  >Services</Nav.Link>
+            <Nav.Link id='navlink2' >Services</Nav.Link>
             <Nav.Link id='navlink3' >Portfolio</Nav.Link>
             <Nav.Link id='navlink4'>Team</Nav.Link>
             <Nav.Link id='navlink5' >Contact</Nav.Link>
