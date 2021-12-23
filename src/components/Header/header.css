@@ -1,99 +1,93 @@
-
 #header {
   display: flex;
   margin-top: 19px;
   margin-left: 20px;
   padding-right: 160px;
   /* align-items: flex-start; */
-
 }
 
 #links {
   display: flex;
   padding-top: 28px;
-flex-wrap: wrap;
-justify-content: space-between;
-width: 100%;
-
-
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
 }
 #links a {
   text-decoration: none;
   color: #939393;
   font-size: 1.1vw;
-
- 
-
 }
-#links a:hover{
-border-bottom: 1px solid black;
-transition: all .3s ease-in-out;
+#links a:hover {
+  border-bottom: 1px solid black;
+  transition: all 0.3s ease-in-out;
 }
 
 #links li {
   list-style: none;
-
 }
-#logo{
-    margin-right: 29px;
-    cursor: pointer;
+#logo {
+  margin-right: 29px;
+  cursor: pointer;
 }
-#lastli{
-    padding:0 0;
-}
-
-#navlink1{
-  color:black;
-  border-bottom: 1px solid rgb(255, 255, 255);
-}
-#navlink2{
-  color:black;
-  border-bottom: 1px solid rgb(255, 255, 255);
-
-}#navlink3{
-  color:black;
-  border-bottom: 1px solid rgb(255, 255, 255);
-
-}#navlink4{
-  color:black;
-  border-bottom: 1px solid rgb(255, 255, 255);
-
-}#navlink5{
-  color:black;
-  border-bottom: 1px solid rgb(255, 255, 255);
-
-}#navlink6{
-  color:black;
-  border-bottom: 1px solid rgb(255, 255, 255);
-
+#lastli {
+  padding: 0 0;
 }
 
-#toggle{
+#navlink1 {
+  color: black;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+#navlink2 {
+  color: black;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+#navlink3 {
+  color: black;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+#navlink4 {
+  color: black;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+#navlink5 {
+  color: black;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+#navlink6 {
+  color: black;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+#toggle {
   color: black;
   border: none;
   outline: none;
 }
 
+#nav {
+  display: none;
+}
+#toggle:active {
+  border: none;
+  outline: none;
+}
+#toggle:focus {
+  border: none;
+  outline: none;
+}
 
 @media only screen and (max-width: 990px) {
   #nav {
-    display:inline-block;
+    display: inline-block;
+  }
 
-  }
-#navlink6:active{
-background-color: orange;
-color: orange;
-  }
   #links {
     display: none;
-  
-  
   }
-  
-#header {
- justify-content: space-between;
- padding-right: 10px;
 
+  #header {
+    justify-content: space-between;
+    padding-right: 10px;
+  }
 }
-}
-
