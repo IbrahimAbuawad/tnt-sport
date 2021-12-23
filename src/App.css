@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap");
+
+* {
+  font-family: "Poppins";
+  box-sizing: border-box;
+}
+.animate__animated.animate__fadeInLeft{
+  --animate-duration: 2s;
+
+}
